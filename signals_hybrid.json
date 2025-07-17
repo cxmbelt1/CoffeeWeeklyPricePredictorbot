@@ -1,0 +1,10 @@
+{
+  "date": "2025-07-21",
+  "price_now": 304.53,
+  "forecast": 314.73,
+  "delta_pct": 3.35,
+  "label": "\u2b06\ufe0f Sube",
+  "suggested_price": 314.73,
+  "mae_test_usd": 8,
+  "model": "Hybrid_ARIMA+GBM"
+}

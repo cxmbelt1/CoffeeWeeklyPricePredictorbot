@@ -51,12 +51,10 @@ Una vez que el bot está en funcionamiento, puedes interactuar con él directame
 ```text
 
 CoffeeWeeklyPricePredictorbot/
-├── data/             # Almacena los datasets históricos
-├── notebooks/        # Jupyter notebooks para análisis y experimentación
-├── src/              # Código fuente principal
-│   ├── bot_handler.py     # Lógica del bot de Telegram
-│   ├── model_trainer.py   # Lógica de entrenamiento y predicción del modelo
-│   └── main.py            # Punto de entrada de la aplicación
-├── .gitignore        # Archivos y carpetas a ignorar por Git
-├── requirements.txt  # Dependencias de Python
+├── backtest/              # Contiene diferentes pruebas de los modelos y modelos desechados al tener peor rendimiento que el seleccionado
+├── data/             # Almacena los datasets históricos de las diferentes variables
+├── scrapping/             # Son los scripts que permiten obtener los datasets de interes
+├── signals_hybrid.json  # Contiene la estructura del mensaje que envia el bot a telegram
+├── bot.py     # Lógica del bot de Telegram
+├── train_arima.py     # Es la logica con la cual se entreno el modelo final (SARIMA + LightGBM)
 └── README.md         # Éste archivo

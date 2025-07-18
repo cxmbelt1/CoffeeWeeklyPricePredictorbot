@@ -38,11 +38,10 @@ El objetivo principal es proporcionar una herramienta sencilla y accesible para 
 
 Una vez que el bot está en funcionamiento, puedes interactuar con él directamente en Telegram.
 
-1.  Busca tu bot en Telegram por su nombre de usuario.
+1.  Busca el bot en Telegram por su nombre de usuario o ingresa por medio del link t.me/CoffeeWeeklyPricePredictorbot
 2.  Inicia una conversación y utiliza los siguientes comandos:
     * `/start` - Muestra un mensaje de bienvenida e información básica.
-    * `/prediccion` - Devuelve la predicción de precio más reciente junto con un análisis breve.
-    * `/info` - Proporciona detalles sobre el proyecto y el modelo utilizado.
+    * `/signal` - Devuelve la predicción de precio más reciente junto con un análisis breve.
 
 ***
 
